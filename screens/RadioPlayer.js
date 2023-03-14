@@ -28,6 +28,18 @@ const RadioPlayer = () => {
                   {useNativeDriver: true},
                 )}
             />
+
+            {/* Title + Author */}
+
+            <View>
+                <Text style={[style.channelContent, style.channelTitle]}>
+                    {/* {channels[channelIndex].title} */ trackTitle}
+                </Text>
+                <Text style={[style.channelContent, style.channelArtist]}>
+                    {/* {channels[channelIndex].artist} */ trackArtist}
+                </Text>
+            </View>
+
         </View>
     </SafeAreaView>
   )
