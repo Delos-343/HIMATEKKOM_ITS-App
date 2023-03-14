@@ -1,5 +1,5 @@
 import React from 'react'
-import { Animated, FlatList, SafeAreaView } from 'react-native'
+import { Animated, Dimensions, FlatList, SafeAreaView } from 'react-native'
 
 const { width, height } = Dimensions.get('window');
 
