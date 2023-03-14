@@ -65,17 +65,17 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
     },
 
-    songContent: {
+    channelContent: {
         textAlign: 'center',
         color: '#EEEEEE',
     },
 
-    songTitle: {
+    channelTitle: {
         fontSize: 18,
         fontWeight: '600',
     },
     
-    songArtist: {
+    channelArtist: {
         fontSize: 16,
         fontWeight: '300',
     },
