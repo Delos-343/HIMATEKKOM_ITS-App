@@ -3,8 +3,8 @@ import { Animated, FlatList, SafeAreaView } from 'react-native'
 
 const RadioPlayer = () => {
   return (
-    <SafeAreaView style={style.container}>
-        <View style={style.mainContainer}>
+    <SafeAreaView style={styles.container}>
+        <View style={styles.mainContainer}>
 
             {/* Poster / Live Video Preview */}
 
@@ -32,10 +32,10 @@ const RadioPlayer = () => {
             {/* Title + Author */}
 
             <View>
-                <Text style={[style.channelContent, style.channelTitle]}>
+                <Text style={[styles.channelContent, styles.channelTitle]}>
                     {/* {channels[channelIndex].title} */ trackTitle}
                 </Text>
-                <Text style={[style.channelContent, style.channelArtist]}>
+                <Text style={[styles.channelContent, styles.channelArtist]}>
                     {/* {channels[channelIndex].artist} */ trackArtist}
                 </Text>
             </View>
@@ -46,3 +46,16 @@ const RadioPlayer = () => {
 }
 
 export default RadioPlayer
+
+const styles = StyleSheet.create({
+    container: {
+        flex: 1,
+        backgroundColor: '#222831',
+    },
+    
+    mainContainer: {
+        flex: 1,
+        alignItems: 'center',
+        justifyContent: 'center',
+    },
+});
