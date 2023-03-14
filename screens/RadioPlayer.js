@@ -10,7 +10,7 @@ const RadioPlayer = () => {
 
         {/*
 
-        Poster / Live Video Preview
+        Poster / Video Preview
 
             <Animated.FlatList
                 ref={radioSlider}
