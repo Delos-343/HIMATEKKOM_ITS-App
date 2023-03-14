@@ -6,7 +6,7 @@ const RadioPlayer = () => {
     <SafeAreaView style={styles.container}>
         <View style={styles.mainContainer}>
 
-            
+            <Text> Hello World ~ HimaTekkom App </Text>
 
         {/*
 
