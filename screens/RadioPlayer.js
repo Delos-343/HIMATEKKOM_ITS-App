@@ -6,9 +6,9 @@ const RadioPlayer = () => {
     <SafeAreaView style={style.container}>
         <View style={style.mainContainer}>
             <Animated.FlatList
-                ref={songSlider}
-                renderItem={renderSongs}
-                data={songs}
+                ref={radioSlider}
+                renderItem={renderChannels}
+                data={channels}
                 keyExtractor={item => item.id}
                 horizontal
                 pagingEnabled
