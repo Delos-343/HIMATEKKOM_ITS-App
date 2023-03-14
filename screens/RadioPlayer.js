@@ -5,6 +5,9 @@ const RadioPlayer = () => {
   return (
     <SafeAreaView style={style.container}>
         <View style={style.mainContainer}>
+
+            {/* Poster / Live Video Preview */}
+
             <Animated.FlatList
                 ref={radioSlider}
                 renderItem={renderChannels}
