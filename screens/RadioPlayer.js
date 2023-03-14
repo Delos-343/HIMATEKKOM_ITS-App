@@ -6,7 +6,11 @@ const RadioPlayer = () => {
     <SafeAreaView style={styles.container}>
         <View style={styles.mainContainer}>
 
-            {/* Poster / Live Video Preview */}
+            
+
+        {/*
+
+        Poster / Live Video Preview
 
             <Animated.FlatList
                 ref={radioSlider}
@@ -29,16 +33,18 @@ const RadioPlayer = () => {
                 )}
             />
 
-            {/* Title + Author */}
+        Title + Author
 
             <View>
                 <Text style={[styles.channelContent, styles.channelTitle]}>
-                    {/* {channels[channelIndex].title} */ trackTitle}
+                    { {channels[channelIndex].title} || trackTitle}
                 </Text>
                 <Text style={[styles.channelContent, styles.channelArtist]}>
-                    {/* {channels[channelIndex].artist} */ trackArtist}
+                    { {channels[channelIndex].artist} ||  trackArtist}
                 </Text>
             </View>
+
+        */}
 
         </View>
     </SafeAreaView>
