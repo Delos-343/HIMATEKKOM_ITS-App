@@ -6,7 +6,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Text> Hello World. </Text>
-      <StatusBar barStyle="light-content" />
+      <StatusBar style="auto" />
       <RadioPlayer />
     </View>
   );
